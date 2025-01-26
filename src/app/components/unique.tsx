@@ -1,7 +1,6 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-import pinkBackground from '/public/images/pink.png'; 
 
 function Unique() {
   return (
@@ -12,7 +11,7 @@ function Unique() {
           {/* Pink Background */}
           <div className="absolute inset-0 flex justify-center items-center">
             <Image
-              src={pinkBackground}
+              src={"/images/pink-bg.png"}
               alt="Background"
               layout="fill"
               className="object-cover"
