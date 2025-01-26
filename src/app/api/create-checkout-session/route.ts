@@ -28,8 +28,8 @@ export async function POST(request: Request) {
         quantity: item.quantity,
       })),
       mode: "payment",
-      success_url: "https://final-hackathon-ayesha/success",
-      cancel_url: "https://final-hackathon-ayesha/cart",
+      success_url: "https://final-hackathon-ayesha.vercel.app/success",
+      cancel_url: "https://final-hackathon-ayesha.vercel.app/cart",
     });
 
     return NextResponse.json({ sessionId: session.id });
